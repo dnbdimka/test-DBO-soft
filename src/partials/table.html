@@ -1,0 +1,35 @@
+<table class="table">
+  <thead class="table__head">
+    <tr>
+      <th>Название товара</th>
+      <th>Количество</th>
+      <th>Стоимость 1 ед.</th>
+      <th>Общая стоимость</th>
+    </tr>
+  </thead>
+
+  <tbody class="table__body" id="test">
+    <tr>
+      <td>Красный носок</td>
+      <td><input type="number" id="quantity" placeholder="0" step="1" min="0" /></td>
+      <td><input type="number" id="price" placeholder="0" step="0.01" min="0" /></td>
+      <td id="subtotal">0</td>
+    </tr>
+    <tr>
+      <td>Синий носок</td>
+      <td><input type="number" id="quantity" placeholder="0" step="1" min="0" /></td>
+      <td><input type="number" id="price" placeholder="0" step="0.01" min="0" /></td>
+      <td id="subtotal">0</td>
+    </tr>
+    <tr>
+      <td>Бесцветный носок</td>
+      <td><input type="number" id="quantity" placeholder="0" step="1" min="0" /></td>
+      <td><input type="number" id="price" placeholder="0" step="0.01" min="0" /></td>
+      <td id="subtotal">0</td>
+    </tr>
+    <tr class="table__footer">
+      <td colspan="3">Общая стоимость</td>
+      <td id="total">0</td>
+    </tr>
+  </tbody>
+</table>
